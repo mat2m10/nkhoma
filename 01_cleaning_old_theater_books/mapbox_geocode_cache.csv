@@ -1,0 +1,414 @@
+query,lon,lat,place_name,relevance,feature_id
+6miles,33.739164,-13.215804,Malawi,0.5,country.8862
+a23,33.739164,-13.215804,Malawi,0.5,country.8862
+a24,33.739164,-13.215804,Malawi,0.5,country.8862
+a25,33.739164,-13.215804,Malawi,0.5,country.8862
+a49,33.739164,-13.215804,Malawi,0.5,country.8862
+a56,33.739164,-13.215804,Malawi,0.5,country.8862
+agoma,33.739164,-13.215804,Malawi,0.5,country.8862
+airfield,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+amon,33.739164,-13.215804,Malawi,1,country.8862
+andeni,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+area11,33.739164,-13.215804,Malawi,0.5,country.8862
+area23,33.739164,-13.215804,Malawi,0.5,country.8862
+area24,33.739164,-13.215804,Malawi,0.5,country.8862
+area3,33.739164,-13.215804,Malawi,0.5,country.8862
+area44,33.739164,-13.215804,Malawi,1,country.8862
+area49,33.739164,-13.215804,Malawi,0.5,country.8862
+balaka,34.960297,-14.985868,"Balaka, Malawi",1,region.238750
+bango,33.739164,-13.215804,Malawi,0.5,country.8862
+batalion,33.739164,-13.215804,Malawi,0.5,country.8862
+bito,33.739164,-13.215804,Malawi,0.5,country.8862
+blantyre,35.003569,-15.786254,"Blantyre, Malawi",1,region.58526
+bongololo,33.739164,-13.215804,Malawi,0.5,country.8862
+chadza,33.535424,-13.969878,"Chadza, Lilongwe, Malawi",1,place.436382
+chakale,33.739164,-13.215804,Malawi,0.5,country.8862
+chakhadza,33.739164,-13.215804,Malawi,0.5,country.8862
+chakhaza,33.739164,-13.215804,Malawi,0.5,country.8862
+chalendewa,33.739164,-13.215804,Malawi,0.5,country.8862
+chamadenga,33.739164,-13.215804,Malawi,0.5,country.8862
+chambala,33.739164,-13.215804,Malawi,0.5,country.8862
+chambu,35.248984,-14.482546,"Chamba, Mangochi, Malawi",0.958333,place.575646
+chamedenga,33.739164,-13.215804,Malawi,0.5,country.8862
+chandaula,33.739164,-13.215804,Malawi,0.5,country.8862
+chapenbeza,33.739164,-13.215804,Malawi,0.5,country.8862
+chapendeka,33.739164,-13.215804,Malawi,0.5,country.8862
+chatata,33.739164,-13.215804,Malawi,0.5,country.8862
+chauma,33.899742,-13.735051,"Chauwa, Dowa, Malawi",0.958333,place.829598
+chauwa,33.899742,-13.735051,"Chauwa, Dowa, Malawi",1,place.829598
+chaweza,35.578494,-15.538096,"Chawesa, Zomba, Malawi",0.964286,place.854174
+chawo,33.739164,-13.215804,Malawi,0.5,country.8862
+chedza,33.535424,-13.969878,"Chadza, Lilongwe, Malawi",0.958333,place.436382
+chembe,34.846135,-14.0218,"Chembe, Mangochi, Malawi",1,place.870558
+chetebuwe,33.739164,-13.215804,Malawi,0.5,country.8862
+chibawa,34.243976,-11.662464,"Chibaka, Nkhata Bay, Malawi",0.964286,place.895134
+chibouta,33.739164,-13.215804,Malawi,0.5,country.8862
+chibwinja,33.739164,-13.215804,Malawi,0.5,country.8862
+chidza,33.535424,-13.969878,"Chadza, Lilongwe, Malawi",0.958333,place.436382
+chigaga,33.739164,-13.215804,Malawi,0.5,country.8862
+chigodi,34.059917,-14.060622,"Chingodi, Lilongwe, Malawi",0.964286,place.1460382
+chigoko,33.739164,-13.215804,Malawi,0.5,country.8862
+chigoli,33.739164,-13.215804,Malawi,0.5,country.8862
+chikanda,33.489201,-9.713879,"Chibanda, Chitipa, Malawi",0.96875,place.903326
+chikapola,33.739164,-13.215804,Malawi,0.5,country.8862
+chikapule,33.739164,-13.215804,Malawi,0.5,country.8862
+chikaza,33.383039,-14.034953,"Chikaza, Lilongwe, Malawi",1,place.1050782
+chikokwe,33.739164,-13.215804,Malawi,0.5,country.8862
+chikombe,34.200258,-12.802523,"Chikombe, Nkhotakota, Malawi",1,place.1067166
+chikoti,34.303697,-12.989679,"Chisoti, Nkhotakota, Malawi",0.964286,place.1960094
+chikumkuyu,33.739164,-13.215804,Malawi,0.5,country.8862
+chikumulo,33.739164,-13.215804,Malawi,0.5,country.8862
+chikutola,33.739164,-13.215804,Malawi,0.5,country.8862
+chikuwi,33.49417,-13.945257,"Chituwi, Lilongwe, Malawi",0.964286,place.2115742
+chikuza,33.383039,-14.034953,"Chikaza, Lilongwe, Malawi",0.964286,place.1050782
+chikwaya,34.791215,-16.027131,"Chikwawa, Malawi",0.96875,region.165022
+chilalo,33.739164,-13.215804,Malawi,0.5,country.8862
+chilembwe,33.479773,-13.957801,"Chilembwe, Lilongwe, Malawi",1,place.1231006
+chiletsa,33.739164,-13.215804,Malawi,0.5,country.8862
+chilikumanda,33.739164,-13.215804,Malawi,1,country.8862
+chilikumwendo,33.739164,-13.215804,Malawi,0.5,country.8862
+chilima,34.116131,-13.793948,"Chilima, Dowa, Malawi",1,place.1239198
+chilinda,33.808836,-10.592277,"Chelinda, Rumphi, Malawi",0.96875,place.11421854
+chilombo,34.654739,-15.347043,"Chilombo, Neno, Malawi",1,place.1255582
+chilunga,34.195715,-14.093461,"Chilanga, Dedza, Malawi",0.96875,place.1181854
+chimbowa,33.739164,-13.215804,Malawi,0.5,country.8862
+chimkonde,33.739164,-13.215804,Malawi,0.5,country.8862
+chimoto,33.401984,-14.095182,"Chamoto, Lilongwe, Malawi",0.964286,place.632990
+chimutu,33.739164,-13.215804,Malawi,0.5,country.8862
+chimwala,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+chimwenje,33.739164,-13.215804,Malawi,0.5,country.8862
+chindole,33.739164,-13.215804,Malawi,0.5,country.8862
+chinomwe,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+chinowi,35.320416,-14.471933,"Chikowi, Mangochi, Malawi",0.964286,place.1075358
+chinsapo,33.739164,-13.215804,Malawi,0.5,country.8862
+chipatala,33.739164,-13.215804,Malawi,0.5,country.8862
+chipseye,33.739164,-13.215804,Malawi,1,country.8862
+chipye,33.739164,-13.215804,Malawi,0.5,country.8862
+chiradzulu,35.182269,-15.704619,"Chiradzulu, Malawi",1,region.148638
+chisawa,33.739164,-13.215804,Malawi,0.5,country.8862
+chiseka,33.391287,-14.024417,"Chileka, Lilongwe, Malawi",0.964286,place.1206430
+chisero,33.739164,-13.215804,Malawi,0.5,country.8862
+chisika,33.476711,-14.007511,"Chisikwa, Lilongwe, Malawi",0.964286,place.1910942
+chisindo,33.739164,-13.215804,Malawi,0.5,country.8862
+chitakwele,34.11597,-13.956537,"Chitekwele, Lilongwe, Malawi",0.975,place.2009246
+chitawale,33.739164,-13.215804,Malawi,0.5,country.8862
+chitekwere,34.11597,-13.956537,"Chitekwele, Lilongwe, Malawi",0.975,place.2009246
+chitenani,33.739164,-13.215804,Malawi,0.5,country.8862
+chitoko,33.739164,-13.215804,Malawi,0.5,country.8862
+chitsala,33.494777,-13.983857,"Chatsala, Lilongwe, Malawi",0.96875,place.813214
+chitukula,33.739164,-13.215804,Malawi,0.5,country.8862
+chiumbe,33.739164,-13.215804,Malawi,0.5,country.8862
+chiwale,33.650086,-14.217782,"Chiwale, Lilongwe, Malawi",1,place.2140318
+chiwera,34.186124,-10.696735,"Chiweta, Rumphi, Malawi",0.964286,place.2197662
+chiwoko,33.739164,-13.215804,Malawi,0.5,country.8862
+chiwoza,33.989995,-13.902615,"Chiwoza, Lilongwe, Malawi",1,place.2214046
+chizila,35.196763,-16.647036,"Chizola, Nsanje, Malawi",0.964286,place.2230430
+chizili,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+chombo,34.257688,-12.874196,"Chombo, Nkhotakota, Malawi",1,place.2287774
+chungu,33.739164,-13.215804,Malawi,0.5,country.8862
+dalitso,33.739164,-13.215804,Malawi,0.5,country.8862
+dambo,33.518109,-13.960566,"Dambo, Lilongwe, Malawi",1,place.2427038
+dawe,33.739164,-13.215804,Malawi,0.5,country.8862
+dedza,34.328238,-14.380727,"Dedza, Malawi",1,region.132254
+dete,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+dowa,33.930209,-13.657673,"Dowa, Malawi",1,region.83102
+duke,33.739164,-13.215804,Malawi,1,country.8862
+dzuwa,33.739164,-13.215804,Malawi,0.5,country.8862
+ezala,33.739164,-13.215804,Malawi,0.5,country.8862
+fumbwa,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+ganya,33.739164,-13.215804,Malawi,0.5,country.8862
+gonkho,33.739164,-13.215804,Malawi,0.5,country.8862
+gunda,33.739164,-13.215804,Malawi,0.5,country.8862
+gundani,33.501239,-13.049451,"Gundani, Kasungu, Malawi",1,place.2992286
+guntha,33.739164,-13.215804,Malawi,0.5,country.8862
+gwaza,33.739164,-13.215804,Malawi,0.5,country.8862
+jamkoma,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+jenala,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+jumbe,34.71302,-15.357607,"Lumbe, Neno, Malawi",0.95,place.5777566
+kabango,33.739164,-13.215804,Malawi,0.5,country.8862
+kabudula,33.447539,-13.819543,"Kabudula, Lilongwe, Malawi",1,place.3524766
+kabwazi,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+kachere,34.682674,-15.372861,"Kachere, Neno, Malawi",1,place.3582110
+kacheza,33.514623,-13.288794,"Kacheta, Kasungu, Malawi",0.964286,place.3598494
+kachitsa,33.739164,-13.215804,Malawi,0.5,country.8862
+kachule,34.522365,-13.63535,"Kachulu, Salima, Malawi",0.964286,place.3623070
+kachulu,34.522365,-13.63535,"Kachulu, Salima, Malawi",1,place.3623070
+kadewere,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+kadula,34.664071,-15.515855,"Kaduka, Neno, Malawi",0.958333,place.3664030
+kadzemba,33.739164,-13.215804,Malawi,0.5,country.8862
+kafulatila,33.739164,-13.215804,Malawi,0.5,country.8862
+kafwafwa,33.739164,-13.215804,Malawi,0.5,country.8862
+kalambo,33.739164,-13.215804,Malawi,0.5,country.8862
+kalamizu,33.739164,-13.215804,Malawi,0.5,country.8862
+kalikokha,33.739164,-13.215804,Malawi,0.5,country.8862
+kalima,34.448251,-13.776635,"Salima, Malawi",0.958333,region.74910
+kalimanji,33.739164,-13.215804,Malawi,0.5,country.8862
+kalolo,33.390586,-14.010568,"Kalolo, Lilongwe, Malawi",1,place.3901598
+kalomba,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+kalomo,33.390586,-14.010568,"Kalolo, Lilongwe, Malawi",0.958333,place.3901598
+kalonda,34.583758,-14.90157,"Kalonga, Ntcheu, Malawi",0.964286,place.3926174
+kalonga,34.583758,-14.90157,"Kalonga, Ntcheu, Malawi",1,place.3926174
+kalulu,33.739164,-13.215804,Malawi,0.5,country.8862
+kalumba,33.947511,-14.135214,"Kalumbu, Lilongwe, Malawi",0.964286,place.3958942
+kalumbadza,33.739164,-13.215804,Malawi,0.5,country.8862
+kalumbu,33.947511,-14.135214,"Kalumbu, Lilongwe, Malawi",1,place.3958942
+kalumo,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+kalure,33.739164,-13.215804,Malawi,0.5,country.8862
+kaluzi,33.739164,-13.215804,Malawi,0.5,country.8862
+kamangazula,33.739164,-13.215804,Malawi,0.5,country.8862
+kamenya,33.739164,-13.215804,Malawi,0.5,country.8862
+kamenyagaxa,33.739164,-13.215804,Malawi,0.5,country.8862
+kamgunda,33.739164,-13.215804,Malawi,0.5,country.8862
+kamiza,33.739164,-13.215804,Malawi,0.5,country.8862
+kamjedi,33.739164,-13.215804,Malawi,0.5,country.8862
+kampata,33.478512,-14.016451,"Kampala, Lilongwe, Malawi",0.964286,place.4180126
+kamphata,33.338429,-14.092853,"Kamphata, Mchinji, Malawi",1,place.4188318
+kamphika,33.739164,-13.215804,Malawi,0.5,country.8862
+kampini,33.739164,-13.215804,Malawi,0.5,country.8862
+kampita,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+kananji,33.739164,-13.215804,Malawi,0.5,country.8862
+kankhomba,34.270637,-14.234414,"Kankhumba, Dedza, Malawi",0.972222,place.4303006
+kantuga,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+kanyambo,33.739164,-13.215804,Malawi,0.5,country.8862
+kanyendo,34.360073,-14.210452,"Kanyenda, Dedza, Malawi",0.96875,place.4360350
+kaolanje,33.739164,-13.215804,Malawi,0.5,country.8862
+kaomba,33.739164,-13.215804,Malawi,0.5,country.8862
+kapatuka,33.739164,-13.215804,Malawi,0.5,country.8862
+kapeni,34.377432,-14.244125,"Kapesi, Dedza, Malawi",0.958333,place.4458654
+kaphiri,34.659053,-14.312872,"Kapiri, Dedza, Malawi",0.964286,place.4540574
+kaphuka,34.181856,-14.148509,"Kaphuka, Dedza, Malawi",1,place.4499614
+kapida,34.092585,-10.443114,"Kapika, Karonga, Malawi",0.958333,place.4515998
+kapoka,33.445552,-9.789264,"Kapoka, Chitipa, Malawi",1,place.4556958
+kasakulu,34.076004,-13.343737,"Kasakula, Ntchisi, Malawi",0.96875,place.4614302
+kasaliaka,33.739164,-13.215804,Malawi,0.5,country.8862
+kasambwe,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+kasumbu,34.351974,-14.305073,"Kasumbu, Dedza, Malawi",1,place.4753566
+kasumbudzula,33.739164,-13.215804,Malawi,0.5,country.8862
+kasungu,33.478408,-13.039545,"Kasungu, Malawi",1,region.214174
+katenyeza,33.336699,-14.109442,"Katengeza, Mchinji, Malawi",0.972222,place.4794526
+katete,33.613242,-12.346762,"Katete, Mzimba, Malawi",1,place.4802718
+kathumba,34.685341,-14.723888,"Katumba, Ntcheu, Malawi",0.96875,place.4835486
+katondo,33.739164,-13.215804,Malawi,0.5,country.8862
+kawale,33.739164,-13.215804,Malawi,0.5,country.8862
+kawaliza,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+kawunga,33.739164,-13.215804,Malawi,0.5,country.8862
+kayemba,33.739164,-13.215804,Malawi,0.5,country.8862
+kde,33.739164,-13.215804,Malawi,0.5,country.8862
+kebulala,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+kekala,33.739164,-13.215804,Malawi,0.5,country.8862
+kenya,33.739164,-13.215804,Malawi,0.5,country.8862
+khaiko,33.739164,-13.215804,Malawi,0.5,country.8862
+khama,33.551066,-10.186424,"Kama, Chitipa, Malawi",0.95,place.3999902
+khlokuwa,33.739164,-13.215804,Malawi,0.5,country.8862
+khokhwa,33.739164,-13.215804,Malawi,0.5,country.8862
+khombedza,33.739164,-13.215804,Malawi,0.5,country.8862
+kolombodza,33.739164,-13.215804,Malawi,0.5,country.8862
+kudembe,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+kudemela,33.739164,-13.215804,Malawi,0.5,country.8862
+kulemeka,33.739164,-13.215804,Malawi,0.5,country.8862
+kumakoka,33.739164,-13.215804,Malawi,0.5,country.8862
+kunkhadze,33.739164,-13.215804,Malawi,0.5,country.8862
+kunsinja,33.739164,-13.215804,Malawi,0.5,country.8862
+kuntaya,33.739164,-13.215804,Malawi,0.5,country.8862
+kuphiri,33.739164,-13.215804,Malawi,0.5,country.8862
+kusema,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+kuthete,33.739164,-13.215804,Malawi,0.5,country.8862
+kwanji,33.739164,-13.215804,Malawi,0.5,country.8862
+kwataine,33.739164,-13.215804,Malawi,0.5,country.8862
+likoloma,33.739164,-13.215804,Malawi,0.5,country.8862
+lilongwe,33.768144,-13.987511,"Lilongwe, Malawi",1,region.50334
+ll,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+lobi,34.075973,-14.382453,"Lobi, Dedza, Malawi",1,place.5646494
+lodzanyama,33.739164,-13.215804,Malawi,0.5,country.8862
+lundudzi,33.739164,-13.215804,Malawi,0.5,country.8862
+mabuchi,33.739164,-13.215804,Malawi,0.5,country.8862
+mabuka,33.739164,-13.215804,Malawi,0.5,country.8862
+madetsa,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+madula,33.406444,-13.931633,"Masula, Lilongwe, Malawi",0.958333,place.6695070
+madzumbi,33.739164,-13.215804,Malawi,0.5,country.8862
+madzunayera,33.739164,-13.215804,Malawi,0.5,country.8862
+maganga,34.260337,-14.053807,"Maganga, Dedza, Malawi",1,place.5990558
+maguliza,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mailos,35.162939,-16.501815,"Mailosi, Nsanje, Malawi",0.958333,place.6072478
+maiwa,33.739164,-13.215804,Malawi,0.5,country.8862
+majasa,34.424378,-14.431875,"Masasa, Ntcheu, Malawi",0.958333,place.6621342
+makwangwala,33.739164,-13.215804,Malawi,0.5,country.8862
+makwenda,33.739164,-13.215804,Malawi,0.5,country.8862
+makwinja,33.739164,-13.215804,Malawi,0.5,country.8862
+malengachanzi,33.739164,-13.215804,Malawi,0.5,country.8862
+malenges,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mangochi,35.260613,-14.480508,"Mangochi, Malawi",1,region.156830
+manondo,33.739164,-13.215804,Malawi,0.5,country.8862
+mapemba,34.222142,-14.09729,"Mapemba, Dedza, Malawi",1,place.6547614
+mapiko,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mapini,33.739164,-13.215804,Malawi,0.5,country.8862
+march,33.739164,-13.215804,Malawi,0.5,country.8862
+masanga,33.739164,-13.215804,Malawi,0.5,country.8862
+maseso,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+masewera,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+masinja3,33.739164,-13.215804,Malawi,0.5,country.8862
+masula,33.406444,-13.931633,"Masula, Lilongwe, Malawi",1,place.6695070
+masumbankhunda,33.739164,-13.215804,Malawi,0.5,country.8862
+matapila,33.970826,-14.021791,"Matapila, Lilongwe, Malawi",1,place.6719646
+matendire,33.739164,-13.215804,Malawi,0.5,country.8862
+matima,33.739164,-13.215804,Malawi,0.5,country.8862
+maula,33.406444,-13.931633,"Masula, Lilongwe, Malawi",0.95,place.6695070
+mavwele,33.739164,-13.215804,Malawi,0.5,country.8862
+mayani,34.248321,-14.090939,"Mayani, Dedza, Malawi",1,place.6834334
+mazengera,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mbala,33.739164,-13.215804,Malawi,0.5,country.8862
+mbalame,33.841025,-13.689054,"Mbalame, Dowa, Malawi",1,place.6891678
+mbeta,33.739164,-13.215804,Malawi,0.5,country.8862
+mbilima,33.739164,-13.215804,Malawi,0.5,country.8862
+mbuna,33.739164,-13.215804,Malawi,0.5,country.8862
+mbuziyadula,33.739164,-13.215804,Malawi,0.5,country.8862
+mchedza,33.739164,-13.215804,Malawi,0.5,country.8862
+mchini,32.887496,-13.797173,"Mchinji, Malawi",0.958333,region.222366
+mchinji,32.887496,-13.797173,"Mchinji, Malawi",1,region.222366
+mchumba,33.739164,-13.215804,Malawi,0.5,country.8862
+mdandu,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mdaula,33.5051,-14.136768,"Ndaula, Lilongwe, Malawi",0.958333,place.9185438
+mduma,33.739164,-13.215804,Malawi,0.5,country.8862
+mganga,33.475734,-14.071312,"Mkanga, Lilongwe, Malawi",0.958333,place.7391390
+misesa,35.189439,-14.544676,"misesa, Mangochi, Malawi",1,place.7293086
+misoma,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mitambo,34.175367,-12.650819,"Mtambo, Nkhotakota, Malawi",0.964286,place.8243358
+mitawa,35.04093,-16.302781,"Mitawi, Chikwawa, Malawi",0.958333,place.7334046
+mitayi,35.04093,-16.302781,"Mitawi, Chikwawa, Malawi",0.958333,place.7334046
+mituwa,33.739164,-13.215804,Malawi,0.5,country.8862
+mkanjeda,33.739164,-13.215804,Malawi,0.5,country.8862
+mkauda,32.955321,-13.518202,"Mkanda, Mchinji, Malawi",0.958333,place.7383198
+mkhala,33.739164,-13.215804,Malawi,0.5,country.8862
+mkhonde,33.739164,-13.215804,Malawi,0.5,country.8862
+mkhosi,33.739164,-13.215804,Malawi,0.5,country.8862
+mkonka,34.166752,-14.082251,"Konka, Dedza, Malawi",0.958333,place.5195934
+mkowola,33.739164,-13.215804,Malawi,0.5,country.8862
+mkukula,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mkulula,33.739164,-13.215804,Malawi,0.5,country.8862
+mkuzi,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mlapo,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mlemba,34.7691,-15.515453,"Mbemba, Neno, Malawi",0.958333,place.6965406
+mlembe,33.739164,-13.215804,Malawi,0.5,country.8862
+mlenga,35.351576,-15.485979,"Mlenga, Zomba, Malawi",1,place.7530654
+mlolo,35.213172,-16.477979,"Mlolo, Nsanje, Malawi",1,place.7579806
+mlonyeni,33.028115,-13.859791,"Mlonyeni, Mchinji, Malawi",1,place.7604382
+mmanga,33.475734,-14.071312,"Mkanga, Lilongwe, Malawi",0.958333,place.7391390
+mndolo,33.739164,-13.215804,Malawi,0.5,country.8862
+mnungu,33.443339,-13.949939,"Mzungu, Lilongwe, Malawi",0.958333,place.8857758
+mnunguzi,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+molongo,33.739164,-13.215804,Malawi,0.5,country.8862
+mongo,33.739164,-13.215804,Malawi,0.5,country.8862
+moyale,33.739164,-13.215804,Malawi,0.5,country.8862
+mozambiq,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mozambique,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mpande,33.739164,-13.215804,Malawi,0.5,country.8862
+mpando,33.378233,-14.046481,"Mphando, Lilongwe, Malawi",0.958333,place.7825566
+mphalabungu,33.739164,-13.215804,Malawi,0.5,country.8862
+mphande,35.201466,-16.33919,"Mphande, Thyolo, Malawi",1,place.7817374
+mphanje,35.201466,-16.33919,"Mphande, Thyolo, Malawi",0.964286,place.7817374
+mphinzi,34.307373,-13.842726,"Mphinzi, Salima, Malawi",1,place.7882910
+mpima,34.643245,-14.855282,"Mpira, Ntcheu, Malawi",0.95,place.7956638
+mpombe,33.739164,-13.215804,Malawi,0.5,country.8862
+mponda,33.775996,-14.152221,"Mponda, Lilongwe, Malawi",1,locality.436894
+mpondazuwa,33.739164,-13.215804,Malawi,0.5,country.8862
+mponera,33.737128,-13.529718,"Mponela, Dowa, Malawi",0.964286,place.7997598
+msakambewa,33.739164,-13.215804,Malawi,0.5,country.8862
+msako,33.739164,-13.215804,Malawi,0.5,country.8862
+msamala,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+msangambe,33.739164,-13.215804,Malawi,0.5,country.8862
+msolo,35.213172,-16.477979,"Mlolo, Nsanje, Malawi",0.95,place.7579806
+msundwe,33.481124,-14.025143,"Msundwe, Lilongwe, Malawi",1,place.8177822
+mtambwa,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mtema,33.739164,-13.215804,Malawi,0.5,country.8862
+mtemwele,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mtemwende,34.271936,-14.157407,"Mtemwende, Dedza, Malawi",1,place.8292510
+mtende,33.739164,-13.215804,Malawi,0.5,country.8862
+mtoga,34.279394,-13.364498,"Mtosa, Nkhotakota, Malawi",0.95,place.8366238
+mtolo,33.739164,-13.215804,Malawi,0.5,country.8862
+mtukula,33.739164,-13.215804,Malawi,0.5,country.8862
+mulanda,33.739164,-13.215804,Malawi,0.5,country.8862
+mulima,34.871662,-15.815103,"Mulima, Blantyre, Malawi",1,place.8423582
+mulongoti,33.739164,-13.215804,Malawi,0.5,country.8862
+muyeleka,33.739164,-13.215804,Malawi,0.5,country.8862
+muzange,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mwachilolo,33.739164,-13.215804,Malawi,0.5,country.8862
+mwadzana,33.739164,-13.215804,Malawi,0.5,country.8862
+mwanzama,33.739164,-13.215804,Malawi,0.5,country.8862
+mwase,33.438741,-13.066416,"Mwase, Kasungu, Malawi",1,place.8693918
+mwazamba,33.909956,-11.695437,"Mazamba, Nkhata Bay, Malawi",0.96875,place.6858910
+mzamba,33.964039,-13.595078,"Mpamba, Dowa, Malawi",0.958333,place.7760030
+mzengereza,33.739164,-13.215804,Malawi,0.5,country.8862
+mzikamanda,33.739164,-13.215804,Malawi,0.5,country.8862
+mzilta,33.739164,-13.215804,Malawi,0.5,country.8862
+mzimba,33.595159,-11.898956,"Mzimba, Malawi",1,region.25758
+mzinza,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+mziza,33.739164,-13.215804,Malawi,0.5,country.8862
+mzuzu,34.022642,-11.460752,"Mzuzu, Malawi",1,place.107678
+nakukula,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+nalukala,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+namanga,33.739164,-13.215804,Malawi,0.5,country.8862
+namkumba,34.8167,-14.365366,"Nankumba, Mangochi, Malawi",0.96875,place.9070750
+nanthambwe,33.739164,-13.215804,Malawi,0.5,country.8862
+nathenje,33.906708,-14.080234,"Nathenje, Lilongwe, Malawi",1,place.9119902
+ndemela,33.449666,-13.823615,"Demela, Lilongwe, Malawi",0.964286,place.2476190
+ndindi,34.513717,-13.964547,"Ndindi, Salima, Malawi",1,place.9250974
+ndirande,33.739164,-13.215804,Malawi,0.5,country.8862
+ndiwo,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+ngolowe,33.739164,-13.215804,Malawi,0.5,country.8862
+njaole,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+njerwa,33.895218,-13.71447,"Njewa, Dowa, Malawi",0.958333,place.9578654
+njobvu,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+njoka,34.789749,-15.547076,"Nkoka, Neno, Malawi",0.95,place.9767070
+njonja,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+njuchi,33.89557,-14.337874,"Njuci, Dedza, Malawi",0.958333,place.9611422
+nkhanza,33.739164,-13.215804,Malawi,0.5,country.8862
+nkhatabay,33.739164,-13.215804,Malawi,0.5,country.8862
+nkhoma,34.103753,-14.040205,"Nkhoma, Lilongwe, Malawi",1,place.9709726
+nkhomba,34.103753,-14.040205,"Nkhoma, Lilongwe, Malawi",0.964286,place.9709726
+nkhonde,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+nkhongo,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+nkombu,33.739164,-13.215804,Malawi,0.5,country.8862
+nsambo,35.153278,-16.440416,"Nsambo, Nsanje, Malawi",1,place.9898142
+nsayenderana,33.739164,-13.215804,Malawi,0.5,country.8862
+ntando,35.360978,-15.919321,"Nkando, Mulanje, Malawi",0.958333,place.9627806
+ntcheu,34.638433,-14.817874,"Ntcheu, Malawi",1,region.197790
+ntchisi,33.919306,-13.357618,"Ntchisi, Malawi",1,region.205982
+ntchito,33.739164,-13.215804,Malawi,0.5,country.8862
+ntchwwu,33.739164,-13.215804,Malawi,0.5,country.8862
+nursing college,34.701808,-15.300392,"Malawi, Neno, Malawi",0.425926,place.6260894
+nyanja,33.739164,-13.215804,Malawi,0.5,country.8862
+nyengere,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+nyongani,33.739164,-13.215804,Malawi,0.5,country.8862
+nyundo,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+nzanda,33.38954,-14.136179,"Nyanda, Lilongwe, Malawi",0.958333,place.10135710
+odala,33.739164,-13.215804,Malawi,0.5,country.8862
+palemba,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+phalombe,35.648067,-15.806557,"Phalombe, Malawi",1,region.124062
+psonja,33.739164,-13.215804,Malawi,0.5,country.8862
+sakifosi,33.739164,-13.215804,Malawi,0.5,country.8862
+salijeni,34.947764,-16.361063,"Salujeni, Chikwawa, Malawi",0.96875,locality.584350
+salima,34.448251,-13.776635,"Salima, Malawi",1,region.74910
+sambango,33.739164,-13.215804,Malawi,0.5,country.8862
+sandukara,33.739164,-13.215804,Malawi,0.5,country.8862
+sandukila,33.739164,-13.215804,Malawi,0.5,country.8862
+satha,33.739164,-13.215804,Malawi,0.5,country.8862
+siliya,33.739164,-13.215804,Malawi,0.5,country.8862
+suzi,33.483271,-12.935962,"Suza, Kasungu, Malawi",0.9375,place.10758302
+tambala,33.629595,-12.873253,"Tambala, Kasungu, Malawi",1,place.10791070
+tete,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+thete,34.096401,-14.3146,"Thete, Dedza, Malawi",1,place.10922142
+tomasi,35.399202,-15.282705,"Domasi, Zomba, Malawi",0.958333,place.2508958
+tsabango,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+tsalango,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+tsanbango,33.739164,-13.215804,Malawi,0.5,country.8862
+tsonga,34.869976,-14.549209,"Songa, Mangochi, Malawi",0.958333,place.10717342
+undi,33.997746,-13.265041,"Undi, Ntchisi, Malawi",1,place.11110558
+villa,33.739164,-13.215804,Malawi,0.5,country.8862
+village,,,,,
+wezi,33.739164,-13.215804,Malawi,0.5,country.8862
+wimbe,33.692332,-12.98539,"Wimbe, Kasungu, Malawi",1,place.11241630
+zeze,34.701808,-15.300392,"Malawi, Neno, Malawi",0.5,place.6260894
+zikambani,33.739164,-13.215804,Malawi,0.5,country.8862
+zimba,35.326827,-15.386321,"Zomba, Malawi",0.95,region.42142
+ziyaya,33.739164,-13.215804,Malawi,0.5,country.8862
+zomba,35.326827,-15.386321,"Zomba, Malawi",1,region.42142
