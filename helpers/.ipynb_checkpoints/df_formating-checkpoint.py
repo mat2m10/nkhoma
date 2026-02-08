@@ -21,6 +21,16 @@ def to_snake_case(col):
     
     return col.strip("_")
 
+def normalize(text):
+    if pd.isna(text):
+        return pd.NA
+    return (
+        str(text)
+        .lower()
+        .strip()
+        .replace(",", "")
+    )
+    
 def convert_cols_to_snake_case(df):
     df.columns = [to_snake_case(c) for c in df.columns]
     return df
