@@ -106,7 +106,7 @@ def classify_place_2022(s):
 
     # Distance-based informal locations
     if re.match(r"^\d+\s*miles?$", s) or re.match(r"^\d+miles?$", s):
-        return "distance_marker"
+        return "district_or_city"
 
     # Everything else: assume named village
     return "village"
