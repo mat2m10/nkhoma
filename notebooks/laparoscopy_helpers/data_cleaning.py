@@ -149,6 +149,7 @@ def clean_surgical_df(df: pd.DataFrame, mapping: pd.DataFrame) -> pd.DataFrame:
         'Dr wongani': 'Dr Wongani',
         'Brenda': 'Visiting Resident',
         'faith': 'Visiting Resident',
+        'Dr James': 'Visiting Resident',
     }
     resident_map_2 = {
         'Dr mada': 'Dr Madalitso',
