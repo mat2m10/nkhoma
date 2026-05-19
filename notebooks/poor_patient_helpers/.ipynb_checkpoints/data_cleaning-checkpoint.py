@@ -42,11 +42,11 @@ _ENDO_SHEETS = {
 }
 
 _ENDO_FINAL_COLS = [
-    "id", "patient_number", "name", "gender", "diagnosis", "surgery",
+    "id", "patient_number", "patient_name", "full_name", "name",
+    "gender", "diagnosis", "surgery",
     "admission_date", "discharge_date", "total_bill_mk", "copay_mk",
     "endoscopy_ledger_balance_mk", "invoice_number", "source_file", "source_sheet",
 ]
-
 
 def _load_endo_sheet(filepath: str, sheet_name: str) -> pd.DataFrame:
     raw = pd.read_excel(filepath, sheet_name=sheet_name,
@@ -110,7 +110,9 @@ def load_all_endo(endo_path: str, verbose: bool = True) -> pd.DataFrame:
 
     combined = combined[combined["name"].notna()]
     combined = combined[combined["admission_date"].notna()]
-
+    combined["patient_name"] = combined["name"]
+    combined["full_name"]    = combined["name"].apply(normalize_name)
+    combined["patient_number"] = combined.get("patient_number", pd.NA)
     cols = [c for c in _ENDO_FINAL_COLS if c in combined.columns]
     return combined[cols].reset_index(drop=True)
 
@@ -635,6 +637,7 @@ _FINAL_COLS = [
     "total_bill_mk", "copay_mk", "fund_covered_mk",
     "mercy_fund_mk", "discount_mk",
     "safe_ask_usd", "safe_fund_mk",
+    "endoscopy_ledger_balance_mk",
     "invoice_number",
     # Fund clinical info
     "fund_diagnosis", "fund_surgery", "fund_source", "admission_type",
@@ -652,6 +655,7 @@ _FINAL_COLS = [
 def build_final(tb:      pd.DataFrame,
                 mercy:   pd.DataFrame,
                 safe:    pd.DataFrame,
+                endo:    pd.DataFrame,
                 verbose: bool = True) -> pd.DataFrame:
     """
     Links mercy and safe fund data to the theatre book via name+date matching.
@@ -674,13 +678,14 @@ def build_final(tb:      pd.DataFrame,
     # ── 1. Prepare theatre book ───────────────────────────────────────
     tb_clean, tb_index = prepare_tb(tb)
 
-    # ── 2. Build raw link tables ──────────────────────────────────────
+# ── 2. Build raw link tables ──────────────────────────────────────
     mercy_links = _build_links(mercy, "full_name", "admission_date",
                                "mercy", tb_index)
     safe_links  = _build_links(safe,  "full_name", "surgery_date",
                                "safe",  tb_index)
-    links = pd.concat([mercy_links, safe_links], ignore_index=True)
-
+    endo_links  = _build_links(endo,  "full_name", "admission_date",
+                               "endo",  tb_index)
+    links = pd.concat([mercy_links, safe_links, endo_links], ignore_index=True)
     # ── 3. Drop ObsGyn matches (not covered by these funds) ───────────
     links = links[~(
         (links["match_status"] == "matched") &
@@ -735,8 +740,23 @@ def build_final(tb:      pd.DataFrame,
                how="left")
         .drop(columns=["full_name"], errors="ignore")
     )
+    # ── 6b. Join full endo details back ──────────────────────────────────
+    endo_detail = (
+        endo[["full_name", "admission_date", "patient_number", "gender",
+              "diagnosis", "surgery", "total_bill_mk", "copay_mk",
+              "endoscopy_ledger_balance_mk", "invoice_number"]]
+        .drop_duplicates(subset=["full_name", "admission_date"])
+    )
+    endo_part = (
+        links[links["fund"] == "endo"]
+        .merge(endo_detail,
+               left_on=["fund_name", "fund_date"],
+               right_on=["full_name", "admission_date"],
+               how="left")
+        .drop(columns=["full_name"], errors="ignore")
+    )
 
-    final = pd.concat([mercy_part, safe_part], ignore_index=True)
+    final = pd.concat([mercy_part, safe_part, endo_part], ignore_index=True)
 
     # ── 7. Join TB procedure details ──────────────────────────────────
     tb_detail = (
@@ -792,6 +812,7 @@ def build_final(tb:      pd.DataFrame,
         final["fund_covered_mk"]
         .fillna(final.get("mercy_fund_mk", pd.NA))
         .fillna(final.get("safe_fund_mk",  pd.NA))
+        .fillna(final.get("endoscopy_ledger_balance_mk", pd.NA)) 
     )
 
     # ── 12. Cross-fund double-billing flag ────────────────────────────
