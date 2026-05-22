@@ -53,17 +53,50 @@ def clean_age(df, col="age_years", min_age=0, max_age=120):
     return df
 
 STAFF_RENAME_MAP = {
+    # --- Obs/Gyn ---
     "obs/Gyn": "Obs/Gyn",
     "OBs/Gyn": "Obs/Gyn",
+    # --- Other ---
     "other": "Other",
+    # --- Lam ---
     "lam": "Lam",
+    # --- Vitu ---
     "VITU": "Vitu",
     "vitu": "Vitu",
+    # --- Stuebing ---
     "Stuebing": "Stuebing",
     "Steubig": "Stuebing",
-    "Steubing": "Stuebing", 
+    "Steubing": "Stuebing",
+    "stuebing": "Stuebing",
+    # --- Alex ---
     "alex": "Alex",
     "ALEX": "Alex",
+    # --- Peter ---
+    "peter": "Peter",
+    # --- Widmann ---
+    "widmann": "Widmann",
+    # --- Woods ---
+    "woods": "Woods",
+    # --- Caleb ---
+    "caleb": "Caleb",
+    # --- Vaylann ---
+    "vaylann": "Vaylann",
+    # --- Wongani ---
+    "wongani": "Wongani",
+    # --- Mallen ---
+    "mallen": "Mallen",
+    # --- Temwa ---
+    "temwa": "Temwa",
+    # --- Carlos ---
+    "carlos": "Carlos",
+    # --- Mzama ---
+    "mzama": "Mzama",
+    # --- Gloria ---
+    "GLoria": "Gloria",
+    # --- Ruth ---
+    "ruth": "Ruth",
+    # --- Nurse kapangaziwiri (assume typo/abbreviation) ---
+    "kapangaziwiri": "Kapangaziwiri",
 }
 
 def rename_staff(df,
@@ -97,8 +130,14 @@ def clean_text_cols(df):
     return df
 
 def clean_time_cols(df):
+    # Merge sarting_time into starting_time without creating a duplicate
     if "sarting_time" in df.columns:
-        df = df.rename(columns={"sarting_time": "starting_time"})
+        if "starting_time" not in df.columns:
+            df = df.rename(columns={"sarting_time": "starting_time"})
+        else:
+            # Both exist (mixed files): fill gaps, then drop the typo column
+            df["starting_time"] = df["starting_time"].fillna(df["sarting_time"])
+            df = df.drop(columns=["sarting_time"])
 
     for col in ["starting_time", "finishing_time"]:
         if col in df.columns:
