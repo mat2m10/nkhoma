@@ -395,7 +395,7 @@ def load_all_safe(safe_path: str, verbose: bool = True) -> pd.DataFrame:
         ("SAFE Program 2022.xlsx",                                        _load_safe_2022),
         ("SAFE 2023 REPORT.xlsx",                                         _load_safe_2023),
         ("Master SAFE Patient Spreadsheet 2024_Nkhoma Hospital.xlsx",     None),
-        ("Master SAFE Patient Spreadsheet 2025_Nkhoma Hospital FINAL.xlsx", None),
+        ("Master SAFE Patient Spreadsheet 2025_Nkhoma Hospital.xlsx", None),
     ]
     frames = []
     for filename, loader_fn in loaders:
